@@ -14,4 +14,6 @@
    - 정보 전달: urls -> views -> (models -> ) -> templates
    - 코드 작성: (models -> ) views -> templates -> urls
    1. views
-      1. say_hello()
+      1. _say_hello()_
+   2. urls
+      1. /playgound/hello/ -> _say_hello()_
