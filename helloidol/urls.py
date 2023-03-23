@@ -20,5 +20,6 @@ import playground.views
 
 urlpatterns = [
     path('playground/', include('playground.urls') ),  #playground/ -> playground.urls에서 처리
+    path('NRG/', include('NRG.urls') ),
     path('admin/', admin.site.urls),
 ]
